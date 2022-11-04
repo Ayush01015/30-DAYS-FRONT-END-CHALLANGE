@@ -52,3 +52,6 @@ img{
     color: white;
 }
 
+svg{
+    max-height: 0;
+}
