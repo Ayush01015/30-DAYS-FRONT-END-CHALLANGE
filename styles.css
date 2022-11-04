@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+#div2{
+    text-align: justify;
+    padding: 2rem;
+}
+
+.apj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 400px;
+    filter: url('#liquify');
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    filter: url('#liquify');
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#heading2{
+    font-size: 2rem;
+    font-weight: 900;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.para{
+    background-color: black;
+    color: white;
+}
